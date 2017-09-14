@@ -52,7 +52,7 @@ for name, from_person in [("sara", from_sara), ("chris", from_chris)]:
             email_text = parseOutText(email)
 
             ### use str.replace() to remove any instances of the words
-            unwanted_text = ["sara", "shackleton", "chris", "germani"]
+            unwanted_text = ["sara", "shackleton", "chris", "germani", "sshacklensf", "cgermannsf"]
             for text in unwanted_text:
                 email_text = email_text.replace(text,"")
 
